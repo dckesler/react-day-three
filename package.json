@@ -1,7 +1,7 @@
 {
   "name": "react-day-three",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Router - Routes - Link - Params",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,11 +9,11 @@
   "author": "Dan",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.3.26",
-    "babel-loader": "^6.2.1",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13",
-    "webpack": "^1.12.9"
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "webpack": "^1.13.2"
   },
   "dependencies": {
     "history": "^1.17.0",
@@ -22,6 +22,17 @@
     "react-router": "^1.0.3"
   },
   "babel": {
-	"presets": ["es2015", "react"]
-  }
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dckesler/react-day-three.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dckesler/react-day-three/issues"
+  },
+  "homepage": "https://github.com/dckesler/react-day-three#readme"
 }

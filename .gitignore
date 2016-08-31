@@ -1,2 +1,4 @@
 node_modules
 .eslintrc
+public/bundle.js
+public/bundle.js.map

@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, IndexRoute } from 'react-router';
+import { Router, Route } from 'react-router';
+
+// var Router = require('react-router').Router;
+// var Route = require('react-router').Route;
+// var IndexRoute = require('react-router').IndexRoute;
+
 import RouteOne from './RouteOne.js';
 import RouteTwo from './RouteTwo.js';
 var App = React.createClass({
